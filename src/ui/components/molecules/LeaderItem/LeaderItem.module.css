@@ -1,0 +1,8 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  padding: 10px 15px;
+  background-color: var(--main-light) !important;
+}

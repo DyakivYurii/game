@@ -1,0 +1,25 @@
+.button {
+  padding: 10px 15px;
+  width: 130px;
+  background-color: var(--main-darken);
+  color: var(--light);
+  border: none;
+  font-size: 18px;
+  line-height: 1.5em;
+  transition: background-color 0.5s ease;
+  border-radius: 3px;
+}
+
+.button:not(:disabled):hover {
+  cursor: pointer;
+  background-color: var(--button-background);
+  transition: background-color 0.5s ease;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.disabled {
+  background-color: var(--main-light);
+}

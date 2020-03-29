@@ -1,0 +1,22 @@
+.col {
+  width: 130px;
+  height: 130px;
+  border: 1px solid var(--main-light);
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: default;
+}
+
+.checkedByUser {
+  background-color: var(--success);
+}
+
+.checkedByComputer {
+  background-color: var(--danger);
+}
+
+.startInterval {
+  background-color: var(--brand);
+}

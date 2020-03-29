@@ -1,0 +1,40 @@
+.container {
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.col {
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+
+  .col {
+    width: 100%;
+    padding: 0 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+}
